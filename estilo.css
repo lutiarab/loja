@@ -20,21 +20,6 @@ body{
     text-decoration: none;
 }
 
-.botao{
-    background-color: rgb(238, 163, 87);
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 30px;
-    display: inline-block;
-    border-radius: 20px;
-    font-size: 18px;
-    border: 0;
-}
-
-.botao:hover{
-    background-color: rgb(243, 210, 168);
-}
-
 .rodape{
     background-color: rgb(235, 156, 82);
     color: black;
@@ -54,12 +39,13 @@ body{
 }
 
 .produto h1{
-    margin-bottom: 20px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .produto img{
     width: 95%;
+   
 }
 
 header{
@@ -74,17 +60,18 @@ article a{
     color: rgb(212, 113, 20);
 }
 
-.manu{
+.menu{
     display: flex;
     list-style:none;
     margin-left:auto;
 }
 
-.menu li{
+li{
     margin-left: 20px;
+    list-style-type:none;
 }
 
-.manu a:hover{
+.menu a:hover{
     color: rgb(0, 0, 0);
 }
 
@@ -168,15 +155,35 @@ textarea.campo{
 
 .opcao{
     text-align: justify;
-    padding: 40px;
+    padding: 20px;
     font-size: 25px;
     color: rgb(26, 25, 25);
     background-color: rgb(235, 156, 82);
 }
 .social{
     text-align: justify;
-    padding: 40px;
+    padding: 20px;
     font-size: 25px;
     color: rgb(26, 25, 25);
     background-color: rgb(235, 156, 82);
+}
+
+button{
+    background-color: rgb(238, 163, 87);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 0;
+}
+
+button:hover{
+    background-color: rgb(243, 210, 168);
+}
+
+.rede{
+    margin-left: auto;
+    padding: 20px;  
 }
